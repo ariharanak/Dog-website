@@ -1,0 +1,110 @@
+
+.nav-item{
+    border:none;
+    padding:2px;
+    margin:3px;
+}
+.nav-item:hover{
+    border-bottom:3px solid white;
+    border-radius: 20px;
+    
+    transition:200ms;
+}
+
+#img{
+    margin-top:10px;
+}
+
+#aboutdogs{
+    margin-top: 200px;
+}
+
+#para{
+    font-size: larger;
+}
+
+#breedpic{
+    height:200px;
+    width:200px;
+}
+.one{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.two{
+    display:grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(2,100px);
+}
+
+.two img{
+    height:100px;
+    width:100px;
+    border-radius: 50px;
+    transition:1s;
+}
+
+.two img:hover{
+    transform: scale(1.2);
+}
+
+#breeds{
+    margin-top: 200px;
+    text-align: center;
+}
+.timeline{
+    margin-left:50px;
+    margin-bottom:200px;
+    
+    border-left:2px solid black;
+    padding: 20px 20px 0 30px;
+
+}
+.ranks{
+    background-color: beige;
+    padding:10px 25px;
+    margin-bottom:20px;
+    border: 1px solid black;
+    line-height:1.7;
+    position:relative;
+    border-radius:10px;
+}
+
+.ranks:before{
+    content:'';
+    display:block;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    background-color: black;
+    border:3px solid #ddd;
+    position:absolute;
+    top:50px;
+    left:-45px;
+}
+
+.ranktitle{
+    text-align: center;
+    margin-top: 200px;;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+}
+
+.contact img{
+    height:50px;
+    width:50px;
+    border:1px solid beige;
+    border-radius: 50px;
+    margin:20px;
+
+}
+.contact img:hover{
+    transform:scale(1.2)
+}
